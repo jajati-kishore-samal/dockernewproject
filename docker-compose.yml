@@ -4,7 +4,7 @@ services:
   movies:
     image: sumitra822/paytmmovies:latest
     ports:
-      - 81:80
+      - 86:80
     deploy:
       replicas: 3
   train:
